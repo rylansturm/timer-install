@@ -22,13 +22,15 @@ git init
 git remote add origin https://github.com/rylansturm/TaktTimer
 git pull origin master
 
-# 
+# shortcuts
 echo
 echo "Making desktop shortcuts..."
 chmod -x add_shortcuts.sh
 bash add_shortcuts.sh
 chmod -x ~/timer_update.sh
 cd ~/
+sudo cp timer-install/icon.png /usr/share/icons/takt.png
+sudo cp Desktop/Timer.desktop .local/share/applications/Timer.desktop
 
 # Everything is ready! Let's run it.
 echo "Running TaktTimer..."
