@@ -5,7 +5,6 @@ echo "Running Update..."
 
 # install dependencies
 sudo apt-get update
-sudo apt-get -y upgrade
 echo
 
 sudo apt-get -y install xscreensaver 
