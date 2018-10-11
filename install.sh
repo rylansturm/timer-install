@@ -1,7 +1,7 @@
 #!/bin/bash
 # updates Raspberry Pi and makes a working version of the TaktTimer app
 
-sudo cp timer-install/icon.png /usr/share/icons/takt.png
+sudo cp ~/timer-install/icon.png /usr/share/icons/takt.png
 
 echo "Running Update..."
 
