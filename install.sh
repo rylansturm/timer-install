@@ -1,6 +1,8 @@
 #!/bin/bash
 # updates Raspberry Pi and makes a working version of the TaktTimer app
 
+sudo cp timer-install/icon.png /usr/share/icons/takt.png
+
 echo "Running Update..."
 
 # install dependencies
@@ -28,7 +30,6 @@ chmod -x add_shortcuts.sh
 bash add_shortcuts.sh
 chmod -x ~/timer_update.sh
 cd ~/
-sudo cp timer-install/icon.png /usr/share/icons/takt.png
 sudo cp Desktop/Timer.desktop .local/share/applications/Timer.desktop
 
 # Everything is ready! Let's run it.
